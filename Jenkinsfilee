@@ -3,12 +3,12 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-        bat 'javac HelloWorld.java'
+        bat 'javac HelloW.java'
             }
     }
     stage('Run'){
       steps{
-        bat 'java HelloWorld'
+        bat 'java HelloW'
     }
 }
 }
